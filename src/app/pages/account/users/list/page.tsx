@@ -4,12 +4,12 @@ export default function admin(){
         <div>
             <h1
             className=" mt-12 font-bold text-center py-30 text-4xl">
-                イベント一覧
+                User一覧
             </h1>
             <div className=" text-right mx-56 ">
-            <Link href={"/pages/events/list/new_qustion"} >
+            <Link href={"/pages/account/users/newaccount"} >
                 <button className="  bg-blue-100 border rounded-full w-44 h-12">
-                イベント作成
+                ユーザー作成
                 </button>
              </Link>
             </div>
@@ -25,14 +25,18 @@ export default function admin(){
                             <tr className="bg-white">
                             <th
                             className="border px-4 py-2 bold bg-blue-200">
-                                イベント名</th>
-                            <th
-                            className="border px-4 py-2 bold bg-blue-200">
-                                開始
                             </th>
                             <th
                             className="border px-4 py-2 bold bg-blue-200">
-                                終了
+                                ログインID
+                            </th>
+                            <th
+                            className="border px-4 py-2 bold bg-blue-200">
+                                登録日
+                            </th>
+                            <th
+                            className="border px-4 py-2 bold bg-blue-200">
+                                種別
                             </th>
                            <th className="bg-white"></th>
                            
@@ -42,23 +46,28 @@ export default function admin(){
                             <tr>
                                 <td
                                 className="bg-green-100 border px-4 py-2">
-                                    python_スタック_01
+                                    XXXXX
                                 </td>
                                 <td
                                 className="bg-green-100 border px-4 py-2 ">
-                                    2024/04/01 10:00~
+                                    1
                                 </td>
                                 <td
                                 className="bg-green-100 border px-4 py-2">
                                     2024/04/02 12:00
                                 </td>
+                                <td className="bg-green-100 border px-4 py-2">
+                                    admin
+                                </td>
                                 <td className="bg-white">
-                                <button
-                                type = "button"
-                                className="rounded bg-gray-200 p-2 transition-colors hover:bg-gray-300 border"
-                                >
-                                    編集
-                                </button>
+                                    <Link href="/pages/account/users/list/renew">
+                                    <button
+                                    type = "button"
+                                    className="rounded bg-gray-200 p-2 transition-colors hover:bg-gray-300 border"
+                                    >
+                                        編集
+                                    </button>
+                                    </Link>
                                 <button
                                 type = "button"
                                 className="rounded bg-red-200 p-2 transition-colors hover:bg-red-300 border"
@@ -70,23 +79,28 @@ export default function admin(){
                             <tr>
                                 <td
                                 className="bg-green-100 border px-4 py-2">
-                                    Java_ソート_01
+                                    *****
                                 </td>
                                 <td
                                 className="bg-green-100 border px-4 py-2"
-                                >2024/04/03 15:00~
+                                >2
                                 </td>
                                 <td
                                 className="bg-green-100 border px-4 py-2">
                                     2024/04/03 16:00
                                 </td>
+                                <td className="bg-green-100 border px-4 py-2">
+                                    admin
+                                </td>
                                 <td className="bg-white">
-                                <button
-                                type = "button"
-                                className="rounded bg-gray-200 p-2 transition-colors hover:bg-gray-300 border"
-                                >
-                                    編集
-                                </button>
+                                    <Link href="/pages/account/users/list/renew">
+                                        <button
+                                        type = "button"
+                                        className="rounded bg-gray-200 p-2 transition-colors hover:bg-gray-300 border"
+                                        >
+                                            編集
+                                        </button>
+                                    </Link>
                                     <button
                                     type = "button"
                                     className="rounded bg-red-200 p-2 transition-colors hover:bg-red-300 border"
