@@ -177,7 +177,7 @@ export default function create_quesion (){
                         </textarea>
                     </div>
                     <div className=" mt-10 h-auto w-8/12 flex justify-center">
-                        <Link href=" pages/account/admin/question/view">
+                        <Link href=" /pages/account/admin/question/view">
                             <button className=" shadow-lg bg-gray-500 shadow-gray-500/50 text-white px-2 mt-11 text-2xl rounded-lg ms-20 w-60 text-center">
                                 キャンセル
                             </button>

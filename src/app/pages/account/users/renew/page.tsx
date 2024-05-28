@@ -30,11 +30,11 @@ export default function newquestion() {
                         </label>
                         <div className=" mt-6">
                         <label className="text-2xl  w-full h-auto font-bold tracking-widest">
-                            難易度
+                            権限
                         </label>
-                        <select className=" px-3 bg-white text-black  h-8 w-56 text-sm  ms-32  focus:border-blue-100 tracking-wide border border-cyan-500">
-                                <option>
-                                権限
+                        <select className="  bg-white text-black  h-8 w-56 text-sm  ms-40  focus:border-blue-100 tracking-wide border border-cyan-500">
+                                <option >
+                                select
                                 </option>
                                 <option>
                                     admin
@@ -47,7 +47,7 @@ export default function newquestion() {
 
                     </div>
                     <div className=" px-36">
-                            <Link href= "/pages/account/users/list">
+                            <Link href= "/pages/account/admin/question/view">
                                 <button className=" bg-gray-50 border border-zinc-900 w-40 mx-10">
                                     キャンセル
                                 </button>
